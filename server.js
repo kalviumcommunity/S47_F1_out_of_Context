@@ -1,11 +1,10 @@
 const express = require('express');
 const app = express();
-const port = process.env.PUBLIC_PORT || 3000;
+const port = process.env.PUBLIC_PORT || 7000;
 
 // define the ping route with the response in JSON
 app.get('/ping', (req, res) => {
-    res.json({"message":"pong"},
-    {"message2":"Hey there,this is my first api"});
+    res.json({"message":"pong"});
   });
 
 if (require.main === module) {
