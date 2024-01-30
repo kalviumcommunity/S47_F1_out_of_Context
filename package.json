@@ -1,15 +1,11 @@
 {
-  "name": "asap",
+  "name": "myapi",
   "version": "1.0.0",
-  "description": "HueHueHue",
+  "description": "API FOR THE DATABASE OF F1 VIDS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
-  }
+  "license": "ISC"
 }
